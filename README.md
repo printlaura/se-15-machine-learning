@@ -31,7 +31,7 @@ NUMERICAL FEATURES
 
 ## **What are the next steps required to perform clustering?**
 
-![Untitled.png](Project%20Clustering%20of%20ASINs%20(1)%20bfed877f978942938edaa41971b86260/Untitled.png)
+![clustering-steps](https://github.com/printlaura/se-15-machine-learning/assets/69178847/ed191459-a764-4ceb-b71d-779e6c5e8d3f)
 
 - **Data Gathering:**  Queries to be written to fetch data from the following sources (tables in our data warehouse)
     - **Product Category:** ASIN_TRACKING_DETAILED_HISTORY
