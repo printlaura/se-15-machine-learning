@@ -2,7 +2,7 @@
 
 ## Context
 
-The company for which this project is developed buys and scales Amazon businesses (*brands*). It acts as an eCommerce aggregator that sells around 47000 different products from a variety of categories, sub categories and brands. Currently, the Planning & Pricing team from the Commercial department does sales forecasting and pricing manually, with a big error margin. 
+The company for which this project is developed buys and scales Amazon businesses (*brands*). It acts as an eCommerce aggregator that sells around 47000 different products (*ASINs*) from a variety of categories, sub categories and brands. Currently, the Planning & Pricing team from the Commercial department does sales forecasting and pricing manually, with a big error margin. 
 
 ## **Why do we need to do clustering?**
 
