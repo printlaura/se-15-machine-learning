@@ -2,11 +2,11 @@
 
 ## Context
 
-The company for which this project is developed buys and scales Amazon businesses (*brands*). It acts as an eCommerce aggregator that sells around 47000 different products (*ASINs*) from a variety of categories, sub categories and brands. Currently, the Planning & Pricing team from the Commercial department does sales forecasting and pricing manually, with a big error margin. 
+The company for which this project is developed buys and scales Amazon businesses (brands). It acts as an eCommerce aggregator that sells around 47,000 different products (ASINs) from a variety of categories, sub categories and brands. At the moment, the Planning & Pricing team from the Commercial department does sales forecasting and pricing manually, using a formula that only captures seasonality. Having such a variety of products in our portfolio, this method entails a big error margin. There is currently no room (or human capacity) for analyzing sales patterns - other than the seasonal factor - that are specific to each item.
 
 ## **Why do we need to do clustering?**
 
-The idea is to develop a series of models to provide price recommendations. For the training of such models, clustering is being experimented in this project.
+The idea is to develop a series of models to provide price recommendations. For the training of such models, clustering is being experimented in this project. 
 
 ## **What is the granular level at which clustering is performed?**
 
