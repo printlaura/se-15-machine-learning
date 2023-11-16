@@ -65,7 +65,7 @@ Reading and preprocessing of raw data in the following notebooks:
 
 `MergeData.ipynb` → reads preprocessed datasets from `preprocessed_data`
 
-`Vectorization.ipynb` → reads `preprocessed_data/Combined_Data.csv` and returns two types vectorized datasets: Full and Categories. Both available in two extensions (*.csv* / *.parquet*).
+`Vectorization.ipynb` → reads `preprocessed_data/Combined_Data.csv` and returns two types vectorized datasets: Full and Categories. Both available two extensions (*.csv* / *.parquet*). 
 
 `Clustering.ipynb` → Implementation of clustering algorithms. 
 
