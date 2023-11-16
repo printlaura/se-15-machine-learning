@@ -1,4 +1,4 @@
-# Project: Clustering of Items
+# Project: Clustering of ASINs
 
 ## Context
 
