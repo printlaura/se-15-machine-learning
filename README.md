@@ -46,6 +46,29 @@ NUMERICAL FEATURES
 - **ML Model:** Post vectorization, experimenting clustering algorithms such as:
     - KMeans
     - HDBSCAN
-    - 
 
 - **Evaluation and Visualization of Clusters:** Once the clustering is done, the clusters are validated by visualizing them. This will be done with domain expertise in the manual way for the scope of this project.
+
+
+## Directory structure in chronological order:
+
+`sql_queries` → sql files with queries used to obtain raw datasets
+
+`raw_data` → datasets before preprocessing
+
+Reading and preprocessing of raw data in the following notebooks:
+
+- `PreprocessProductCategories.ipynb`,
+- `PreprocessNodeCategories.ipynb`,
+- `PreprocessPriceAndSalesVolume.ipynb` and
+- `PreprocessDescriptions.ipynb`
+
+`MergeData.ipynb` → reads preprocessed datasets from `preprocessed_data`
+
+`Vectorization.ipynb` → reads `preprocessed_data/Combined_Data.csv` and returns two types vectorized datasets: Full and Categories. Both available in two extensions (*.csv* / *.parquet*).
+
+`Clustering.ipynb` → Implementation of clustering algorithms. 
+
+`results` → results of clustering notebook.
+
+`wordcloud_clusters` → wordcloud images of KMeans AND HDBSCAN clusters.
